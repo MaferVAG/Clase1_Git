@@ -36,10 +36,11 @@ git add archivo/directorio (agregar los cambios de un archivo al staged)
 
 git add . (para trackear todos los archivos de tu carpeta)(agregar todos los cambios de todos los archivos al staged)
 
-git commit -m "Primer commit" (primer cambio)
+git commit -m "Primer commit" (primer mensaje de cambio que quieras subir en el repositorio)
 
-git branch -M main
+git remote add origin _agregas enlace_
+(esto agregará el origen remoto de tu repositoria de github, pasa de local al que esta en la aplicación)
 
-git remote add origin 
+git push -u origin main (primera vez que vinculas el repositorio remoto con el local)
 
-git push -u origin main
+git push (para las próximas actualizaciones que quieras subir)
