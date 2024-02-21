@@ -30,9 +30,16 @@ git config -h
 git help config
 
 ## Repositorio nuevo
-git init
-git add .
-git commit -m "Primer commit"
+git init (ver que archivos están actvos trackeados (A) o no lo están (U))
+
+git add archivo/directorio (agregar los cambios de un archivo al staged)
+
+git add . (para trackear todos los archivos de tu carpeta)(agregar todos los cambios de todos los archivos al staged)
+
+git commit -m "Primer commit" (primer cambio)
+
 git branch -M main
+
 git remote add origin 
+
 git push -u origin main
