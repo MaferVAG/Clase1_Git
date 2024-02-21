@@ -1,0 +1,17 @@
+Comandos de Terminal
+
+ctrl + ñ - para sacar la terminal
+pwd - "print working directory"
+touch - sirve para crear nuevos archivos, por ejemplo "touch comandos.txt" te creará un archivo nuevo de 
+mkdir - sirve para crear carpetas ejemplo "mkdir nueva-carpeta"
+ls - "list" muestra los archivos y carpetas del directorio actual
+  ls -l - lista los detalles de archivos y carpetas
+  ls -a - lista todos los archivos y carpetas incluyendo los ocultos
+clear - limpia la pantalla de la terminal 
+cd - "change directory" me permite cambiar de directorio (ejemplo carpetas, archivos, etc)
+  cd .. - sube un nivel a la carpeta superior, si tienes que subir 3 niveles entonces sería "cd../../../"
+  cd / - la diagonal indica la raíz de tu disco duro
+  cd ~ - la tilde indica el directorio home del usuario actual
+  rm - "remove" elimina archivos
+    rm -r - elimina carpetas junto con su contenido
+  rmdir - solo sirve para eliminar carpetas vacías

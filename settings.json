@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "window.restoreWindows": "none",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2
+}
